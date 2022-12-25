@@ -1,9 +1,9 @@
 import { Box, Typography, useTheme } from "@mui/material";
-import Friend from "components/Friend";
-import WidgetWrapper from "components/WidgetWrapper";
+import Friend from "componant/Friend";
+import WidgetWrapper from "componant/WidgetWrapper";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { setFriends } from "state";
+import { setFriends } from "state/indexRedux";
 
 const FriendListWidget = ({ userId }) => {
   const dispatch = useDispatch();
